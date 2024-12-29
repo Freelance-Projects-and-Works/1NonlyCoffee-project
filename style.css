@@ -75,7 +75,7 @@ section {
 }
 
 .header {
-    background: var(--bg);
+    background: #94949466;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -280,6 +280,7 @@ section {
     padding: 5rem;
     text-align: center;
     border: var(--border);
+    border-radius: 6px;
 }
 
 .menu .box-container .box img {
@@ -305,11 +306,11 @@ section {
 }
 
 .menu .box-container .box:hover {
-    background: #fff;
+    background: #333;
 }
 
 .menu .box-container .box:hover>* {
-    color: var(--black);
+    color: #fff;
 }
 
 .products .box-container {
@@ -322,6 +323,7 @@ section {
     text-align: center;
     border: var(--border);
     padding: 2rem;
+    border-radius: 6px;
 }
 
 .products .box-container .box .icons a {
@@ -334,8 +336,12 @@ section {
     margin: .3rem;
 }
 
+.products .box-container .box:hover{
+    background: #333;
+}
+
 .products .box-container .box .icons a:hover {
-    background: var(--main-color);
+    background: #000;
 }
 
 .products .box-container .box .image {
@@ -381,6 +387,12 @@ section {
     border: var(--border);
     text-align: center;
     padding: 3rem 2rem;
+    border-radius: 6px;
+}
+
+.review .box-container .box:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 .review .box-container .box p {
@@ -465,6 +477,11 @@ section {
 
 .blogs .box-container .box {
     border: var(--border);
+    border-radius: 6px;
+}
+
+.blogs .box-container .box:hover {
+    background-color: #333;
 }
 
 .blogs .box-container .box .image {
